@@ -1,5 +1,16 @@
 fun main() {
+    val dog: Animal = Dog()
+    val cat = Cat()
 
+    if (dog is Animal) { // type 체크 is 사용
+        println("동물")
+    }
+    if (dog is Dog) { // type 체크
+        println("멍멍이")
+    }
+    if (dog is Cat) { // type 체크
+        println("고양이")
+    }
 }
 
 /*
