@@ -22,3 +22,18 @@ fun myFunc(a: Int, callBack: () -> Unit) {
     callBack()
     println("함수 끝!!")
 }
+
+/*
+* suspend 는 정지 함수
+*
+* suspend fun myFunc(a: Int, callBack: () -> Unit) {
+    println("함수 시작!!")
+    callBack()
+    println("함수 끝!!")
+}
+*
+*
+* 일반적인 main 함수에서 사용할 수 없다.
+* suspend 함수는 다른 suspend에서 사용된다.
+* 코루틴 스코프를 만들어서 사용할 수 있다.
+* */
