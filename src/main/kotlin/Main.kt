@@ -25,6 +25,6 @@ fun main() {
 
     var text = ""
     text = it.toString() // 데이터 변환은 .toXXX
-    
+
 }
 
